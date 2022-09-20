@@ -179,4 +179,23 @@ h1, h2, h3, h4, h5, h6, p  {
   margin-bottom: 10px;
 }
 
+/*------------section-advantages------------*/
 
+.advantages-list  {
+  flex-wrap: wrap;
+}
+
+.advantages-list__item  {
+  width: 276px;
+  margin-bottom: 22px;
+  min-height: 276px;
+  padding-top: 116px;
+  padding-right: 42px;
+  padding-left: 45px;
+  padding-bottom: 32px;
+  outline: 1px solid palevioletred;
+}
+
+.advantages-list__item:not(:nth-child(4n))  {
+  margin-right: 22px;
+}
