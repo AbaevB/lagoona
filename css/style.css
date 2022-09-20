@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5, h6, p  {
   margin-bottom: 70px;
 }
 
+
+
+
 /*------------lagoona-header------------*/
 
 .lagoona-header {
@@ -152,3 +155,28 @@ h1, h2, h3, h4, h5, h6, p  {
 .section-about__text  {
   max-width: 888px;
 }
+
+/*------------section-services------------*/
+
+.services-list  {
+  flex-wrap: wrap;
+}
+
+.services-list__item  {
+  width: 573px;
+  min-height: 330px;
+  margin-bottom: 23px;
+  padding-top: 191px;
+  padding-left: 45px;
+  outline: 1px solid palevioletred;
+}
+
+.services-list__item:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+.section-services__element-title {
+  margin-bottom: 10px;
+}
+
+
