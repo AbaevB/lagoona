@@ -44,7 +44,6 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 
 }
 
@@ -112,3 +111,44 @@ h1, h2, h3, h4, h5, h6, p  {
   margin-right: 40px;
 }
 
+/*------------section-exclusive------------*/
+
+.section-exclusive__block {
+  width: 573px;
+
+}
+
+.section-exclusive__block:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.section-exclusive__element {
+  min-height: 258px;
+  padding-top: 40px;
+  padding-left: 45px;
+  outline: 1px solid palevioletred;
+
+}
+
+.section-exclusive__element:not(:last-child)  {
+  margin-bottom: 24px;
+}
+
+.section-exclusive__element-title {
+  margin-bottom: 15px;
+}
+
+.section-exclusive__price {
+  margin-bottom: 47px;
+}
+
+.section-exclusive__element_big {
+  min-height: 540px;
+  padding-top: 212px;
+}
+
+/*------------section-about------------*/
+
+.section-about__text  {
+  max-width: 888px;
+}
