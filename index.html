@@ -13,7 +13,7 @@
 <body>
 
   <header class="lagoona-header">
-    <div class="container">
+    <div class="container lagoona-header__container flex">
       <div class="lagoona-header__top flex">
         <div class="lagoona-header__left flex">
           <div class="lagoona-header__logo">
@@ -21,14 +21,14 @@
               <img src="images/logo.png" alt="Lagoona logo" class="lagoona-header__logo-image">
             </a>
           </div>
-          <div class="lagoona-header__phone-area">
+
             <a href="tel:+74953225448" class="lagoona-header__phone-link">
               +7 495 322-54-48
             </a>
-          </div>
+
         </div>
-        <div class="lagoona-header__right">
-          <a href="#" class="account-link">
+        <div class="lagoona-header__right flex">
+          <a href="#" class="lagoona-header__account-link">
             <svg class="account-link__svg" width="24" height="24" view-box="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z"
                 fill="#CC9933" />
@@ -37,7 +37,7 @@
         </div>
       </div>
       <nav class="lagoona-header__nav flex">
-        <ul class="lagoona-header__nav-list">
+        <ul class="lagoona-header__nav-list list-reset flex">
           <li class="lagoona-header__nav-item">
             <a href="#1" class="lagoona-header__nav-link">
               О нас
@@ -69,13 +69,14 @@
             </a>
           </li>
         </ul>
+        <button href="#5" class="lagoona-header__nav-btn btn btn-reset">
+          Хочу тур
+        </button>
+        <button href="" class="lagoona-header__nav-btn btn btn-reset">
+          Обратный звонок
+        </button>
       </nav>
-      <a href="#5" class="lagoona-header__nav-button">
-        Хочу тур
-      </a>
-      <a href="" class="lagoona-header__nav-button">
-        Обратный звонок
-      </a>
+
     </div>
     <!----------/container------------>
 

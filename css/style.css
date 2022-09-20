@@ -1,1 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1170px;
+  font-family: sans-serif;
+}
+
+/*------------GLOBAL------------*/
+
+.list-reset {
+  margin: o;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+h1, h2, h3, h4, h5, h6, p  {
+  margin: 0;
+}
+
+.lagoona-section__title {
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.lagoona-main {
+  margin-bottom: 40px;
+}
+
+.lagoona-section:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+/*------------lagoona-header------------*/
+
+.lagoona-header {
+  margin-right: 70px;
+  padding-top: 30px;
+}
+
+.lagoona-header__container  {
+  flex-direction: column;
+}
+
+.lagoona-header__top  {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lagoona-header__left, .lagoona-header__right {
+  align-items: center;
+}
+
+.lagoona-header__logo {
+  flex-shrink: 0;
+  margin-right: 40px;
+}
+
+.lagoona-header__account-link {
+  display: inline-block;
+  padding: 5px auto;
+}
+
+.lagoona-header__nav  {
+  align-items: center;
+  padding: 14px 45px;
+}
+
+.lagoona-header__nav-list {
+  margin-right: 114px;
+}
+
+.lagoona-header__nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.lagoona-header__nav-btn:not(:last-child) {
+  margin-right: 40px;
+}
 
