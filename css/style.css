@@ -199,3 +199,49 @@ h1, h2, h3, h4, h5, h6, p  {
 .advantages-list__item:not(:nth-child(4n))  {
   margin-right: 22px;
 }
+
+/*------------section-placing------------*/
+
+.placing-list {
+  flex-wrap: wrap;
+}
+
+.placing-list__item {
+  width: 374px;
+  min-height: 440px;
+  margin-bottom: 24px;
+  outline: 1px solid palevioletred;
+}
+
+.placing-list__item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+
+
+.placing-content  {
+  padding-top: 32px;
+  padding-right: auto;
+  padding-left: 45px;
+}
+
+
+.placing-content__price {
+  margin-right: 57px;
+}
+
+.placing-hotel-name {
+  margin-bottom: 16px;
+}
+
+.placing-city-name  {
+  margin-bottom: 20px;
+}
+
+.section-placing__element_full  {
+  /*padding-top: 373px;
+  padding-left: 54px;
+  padding-bottom: 27px;*/
+  flex-direction: column;
+  justify-content: flex-end;
+}
