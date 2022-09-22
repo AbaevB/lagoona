@@ -232,11 +232,11 @@ p {
 }
 
 .section-exclusive__element_1 {
-  background-image: url("../images/Rectangle\ 14.jpg");
+  background-image: url("../images/Rectangle14.jpg");
 }
 
 .section-exclusive__element_2 {
-  background-image: url("../images/Rectangle\ 15.jpg");
+  background-image: url("../images/Rectangle15.jpg");
 }
 
 .section-exclusive__element:not(:last-child) {
@@ -260,7 +260,7 @@ p {
 .section-exclusive__element_big {
   min-height: 540px;
   padding-top: 212px;
-  background-image: url("../images/33\ 1.jpg");
+  background-image: url("../images/331.jpg");
 }
 
 .section-exclusive__element-title_big {
@@ -284,7 +284,7 @@ p {
   color: #F0BF5F;
   background-position: right center;
   background-repeat: no-repeat;
-  background-image: url("../images/Rectangle\ 2.svg");
+  background-image: url("../images/Rectangle-2.svg");
 
 }
 
@@ -306,15 +306,45 @@ p {
   margin-bottom: 23px;
   padding-top: 191px;
   padding-left: 45px;
-  outline: 1px solid palevioletred;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 15px;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .services-list__item:not(:nth-child(2n)) {
   margin-right: 23px;
 }
 
+.services-list__item_1  {
+  background-image: url("../images/10.jpg");
+}
+
+.services-list__item_2  {
+  background-image: url("../images/12.jpg");
+}
+
+.services-list__item_3  {
+  background-image: url("../images/15.jpg");
+}
+
+.services-list__item_4  {
+  background-image: url("../images/16.jpg");
+}
+
 .section-services__element-title {
   margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-services__arrow-link {
+  color: #cc9933;
+}
+
+.section-services__text {
+  max-width: 402px;
 }
 
 /*------------section-advantages------------*/
