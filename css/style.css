@@ -76,8 +76,24 @@ body {
   cursor: pointer;
 }
 
+/*------color-scheme------*/
+
+:root {
+  --title-color: #333;
+  --link-color: #666;
+  --text-color: #000;
+  --second-text-color: #999;
+  --background-color-first: #e5e5e5;
+  --background-color-second: #fff;
+  --footer-background-color: #333;
+  --footer-text-color: #fff;
+  --button-hover-color: #fff;
+  --hover-color: #cc9933;
+  --second-hover-color: #f0bf5f;
+  --active-color: #a47312;
+}
+
 .btn {
-  --color: #cc9933;
   padding-top: 13px;
   padding-bottom: 13px;
   padding-left: 20px;
