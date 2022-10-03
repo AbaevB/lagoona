@@ -552,7 +552,7 @@ p {
   color: #999;
 }
 
-.placement-content__strong {
+.placing-content__strong {
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -646,7 +646,7 @@ p {
   margin-bottom: 26px;
 }
 
-.secion-contacts__content {
+.section-contacts__content {
   padding-top: 44px;
   padding-bottom: 46px;
   padding-left: 46px;
@@ -655,12 +655,12 @@ p {
   border-radius: 15px;
 }
 
-.secion-contacts__left  {
+.section-contacts__left  {
   width: 375px;
   margin-right: 50px
 }
 
-.secion-contacts__right {
+.section-contacts__right {
   width: 653px;
   min-height: 528px;
   background-image: url(/images/lagoona-office.jpg);
@@ -672,25 +672,25 @@ p {
 }
 
 
-.contacts-list__item  {
+.section-contacts__list-item  {
   justify-content: space-between;
   padding-bottom: 23px;
   padding-right: 16px;
 }
 
-.contacts-list__item:not(:first-child) {
+.section-contacts__list-item:not(:first-child) {
   padding-top: 25px;
 }
 
-.contacts-list__item:not(:last-child) {
+.section-contacts__list-item:not(:last-child) {
   border-bottom: 1px solid #c4c4c4;
 }
 
-.contacts-list__item:last-child {
+.section-contacts__list-item:last-child {
   padding-bottom: 0;
 }
 
-.contacts-list__item-shedule  {
+.section-contacts__list-item-shedule  {
   margin-bottom: 45px;
 }
 
@@ -715,7 +715,7 @@ p {
   width: 229px;
 }
 
-.secion-contacts__text  {
+.section-contacts__text  {
   margin: 0;
   width: 229px;
   font-size: 16px;
@@ -724,6 +724,8 @@ p {
   font-style: normal;
   color: #000;
 }
+
+
 
 
 
